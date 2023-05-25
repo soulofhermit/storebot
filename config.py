@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚍𝚘 𝚗𝚘𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚖𝚎𝚜𝚜𝚊𝚐𝚎𝚜 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢. 𝙹𝚘𝚒𝚗 @𝙵𝚒𝚕𝚖𝚜𝚘𝚏𝙵𝚘𝚛𝚝𝚞𝚗𝚎 𝚝𝚘 𝚐𝚊𝚒𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚘 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚕𝚒𝚗𝚔𝚜!"
+USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚍𝚘 𝚗𝚘𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚖𝚎𝚜𝚜𝚊𝚐𝚎𝚜 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢. 𝙹𝚘𝚒𝚗 : @𝙵𝚒𝚕𝚖𝚜𝚘𝚏𝙵𝚘𝚛𝚝𝚞𝚗𝚎 𝚝𝚘 𝚐𝚊𝚒𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚘 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚕𝚒𝚗𝚔𝚜!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5715864408)
