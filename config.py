@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "👋𝙷𝚎𝚕𝚕𝚘 {first}\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚊 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚕𝚒𝚗𝚔 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚘𝚛 𝚍𝚎𝚜𝚒𝚐𝚗𝚎𝚍 𝚝𝚘 𝚍𝚎𝚕𝚒𝚟𝚎𝚛 𝚝𝚑𝚎 𝚕𝚊𝚝𝚎𝚜𝚝 𝚖𝚘𝚟𝚒𝚎𝚜, 𝚠𝚎𝚋 𝚜𝚎𝚛𝚒𝚎𝚜, 𝚊𝚗𝚍 𝚖𝚘𝚛𝚎 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛𝚜 𝚊𝚜 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝚏𝚒𝚕𝚎𝚜.\n\n𝙹𝚘𝚒𝚗 : @𝙵𝚒𝚕𝚖𝚜𝚘𝚏𝙵𝚘𝚛𝚝𝚞𝚗𝚎 𝚏𝚘𝚛 𝚞𝚙𝚍𝚊𝚝𝚎𝚜!")
+START_MSG = os.environ.get("START_MESSAGE", "👋𝙷𝚎𝚕𝚕𝚘 {first}\n\n𝚃𝚑𝚒𝚜 𝚒𝚜 𝚊 𝚂𝚙𝚎𝚌𝚒𝚊𝚕 𝙻𝚒𝚗𝚔 𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚘𝚛 𝚍𝚎𝚜𝚒𝚐𝚗𝚎𝚍 𝚝𝚘 𝚍𝚎𝚕𝚒𝚟𝚎𝚛 𝚝𝚑𝚎 𝙻𝚊𝚝𝚎𝚜𝚝 𝙼𝚘𝚟𝚒𝚎𝚜, 𝚆𝚎𝚋 𝚂𝚎𝚛𝚒𝚎𝚜, 𝚊𝚗𝚍 𝚖𝚘𝚛𝚎 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛𝚜 𝚊𝚜 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝚏𝚒𝚕𝚎𝚜.\n\n\n𝙹𝚘𝚒𝚗 : @FilmsofFortune 𝚏𝚘𝚛 𝚞𝚙𝚍𝚊𝚝𝚎𝚜!")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚍𝚘 𝚗𝚘𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚖𝚎𝚜𝚜𝚊𝚐𝚎𝚜 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢. 𝙹𝚘𝚒𝚗 : @𝙵𝚒𝚕𝚖𝚜𝚘𝚏𝙵𝚘𝚛𝚝𝚞𝚗𝚎 𝚝𝚘 𝚐𝚊𝚒𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚘 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚕𝚒𝚗𝚔𝚜!"
+USER_REPLY_TEXT = "❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚍𝚘 𝚗𝚘𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚖𝚎𝚜𝚜𝚊𝚐𝚎𝚜 𝚍𝚒𝚛𝚎𝚌𝚝𝚕𝚢. 𝙹𝚘𝚒𝚗 : @FilmsofFortune 𝚝𝚘 𝚐𝚊𝚒𝚗 𝚊𝚌𝚌𝚎𝚜𝚜 𝚝𝚘 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚕𝚒𝚗𝚔𝚜!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(5715864408)
