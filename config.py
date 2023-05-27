@@ -49,7 +49,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙷𝚎𝚢 {first}\n\n<b>𝙿𝚕𝚎𝚊𝚜𝚎 𝚓𝚘𝚒𝚗 𝚖𝚢 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚒𝚗 𝚘𝚛𝚍𝚎𝚛 𝚝𝚘 𝚞𝚜𝚎 𝚖𝚎.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "❣ <b>File Uploaded By :\n\n🏴‍☠️    ↭ [𝙵𝙸𝙻𝙼𝚂 𝙾𝙵 𝙵𝙾𝚁𝚃𝚄𝙽𝙴](https://t.me/FilmsofFortune)</b> ↭    🏴‍☠️\n\n🎬 <b>File Name: </b> ➥  {file_name}\n\n\n<b>New Updates Join Now👇🥳</b>\n⚡  ↭ <b>[𝙵𝙸𝙻𝙼𝚂 𝙾𝙵 𝙵𝙾𝚁𝚃𝚄𝙽𝙴](https://t.me/FilmsofFortune)</b> ↭  ⚡")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
